@@ -58,5 +58,4 @@ putchar('y');
 getchar();
 putchar('z');
 getchar();
-return (0);
 }
