@@ -2,11 +2,10 @@
 #include <stdio.h>
 
 /**
-* main - check the code.
-*
-* Return: Always 0.
+* main - Entry point
+* Return: Always 0 (Success)
 */
-int main(void)
+void print_alphabet_x10(void)
 {
 char ch;
 int i;
