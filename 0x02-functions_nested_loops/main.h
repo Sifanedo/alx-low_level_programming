@@ -3,6 +3,6 @@
 
 #include <stdio.h>
 
-void print_alphabet(void);
+int print_alphabet(char ch);
 
 #endif /* MAIN_H */
