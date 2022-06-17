@@ -1,20 +1,22 @@
-#include "main.h"
+#include <stdio.h>
 #include <ctype.h>
 
 /**
 * main - Entry point
 *
 */
-int _islower(int c)
+int main()
 {
-int ch;
-if (islower(ch))
+char ch;
+printf("Enter an alphabet: ");
+scanf("%c", &ch);
+if (isupper(ch))
 {
-putchar(ch + '0');
-return (1);
+printf(" '%c' is upper case", ch);
 }
-else 
+else if (islower(ch))
 {
-return (0);
+printf(" '%c' is lower case", ch);
 }
+return 0;
 }
