@@ -1,18 +1,20 @@
 #include "main.h"
+#include <ctype.h>
 
 /**
 * main - Entry point
 *
 */
-
-int _islower(int c);
+int _islower(int c)
 {
-int c;
-if (c = _islower('c'))
+int ch;
+if (islower(ch))
 {
-_putchar(c + '0');
-}
+putchar(ch + '0');
 return (1);
-else
+}
+else 
+{
 return (0);
+}
 }
